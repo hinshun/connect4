@@ -1,6 +1,6 @@
 #Connect 4
 
-Connect 4 is a CodeIgniter application to play multiplayer conenct 4. Created with ??? by Edgar Lee.
+CodeIgniter application to play multiplayer connect 4. Created with ♥ by Edgar Lee.
 
 #Copyright & License
 
