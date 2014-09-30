@@ -198,7 +198,7 @@ class Account extends CI_Controller {
     			$config['smtp_host']    = 'ssl://smtp.gmail.com';
     			$config['smtp_port']    = '465';
     			$config['smtp_timeout'] = '7';
-    			$config['smtp_user']    = 'mail.connect4online';
+    			$config['smtp_user']    = 'example';
     			$config['smtp_pass']    = 'connect1234';
     			$config['charset']    = 'utf-8';
     			$config['newline']    = "\r\n";
@@ -207,7 +207,7 @@ class Account extends CI_Controller {
     			
 	    	  	$this->email->initialize($config);
     			
-    			$this->email->from('mail.connect4online@gmail.com', 'Connect 4 Online');
+    			$this->email->from('mail.example@gmail.com', 'Connect 4');
     			$this->email->to($user->email);
     			
     			$this->email->subject('Password recovery');
