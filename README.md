@@ -1,6 +1,6 @@
 # [Connect 4](http://github.com/hinshun/connect4)
 
-Connect 4 is an web application to play real-time Connect 4 with other
+Connect 4 is an web application written with CodeIgniter to play real-time Connect 4 with other
 users.
 
 ## Getting Started
@@ -73,7 +73,7 @@ Nginx.
 
     vim /etc/nginx/sites-available/default
 
-Change your configurations like such
+Change your configurations like such:
 
     [...]
     server {
