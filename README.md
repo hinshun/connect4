@@ -1,7 +1,6 @@
 # [Connect 4](http://github.com/hinshun/connect4)
 
-Connect 4 is an web application written with CodeIgniter to play real-time Connect 4 with other
-users.
+Connect 4 is an web application written with PHP MVC framework CodeIgniter to play psuedo-real time Connect 4 and chat.
 
 ## Getting Started
 
