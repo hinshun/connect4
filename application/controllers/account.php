@@ -94,7 +94,7 @@ class Account extends CI_Controller {
     	$this->form_validation->set_rules('last', 'last', "required");
     	$this->form_validation->set_rules('email', 'Email', "required|is_unique[user.email]");
     	
-    	include_once $_SERVER['DOCUMENT_ROOT'] . '/connect4/securimage/securimage.php';
+    	include_once $_SERVER['DOCUMENT_ROOT'] . '/securimage/securimage.php';
     	$securimage = new Securimage();
     	
     	// If it isn't valid, return to registration page

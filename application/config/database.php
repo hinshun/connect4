@@ -48,14 +48,14 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'bungle08.cs.toronto.edu';
-$db['default']['username'] = 'g2lee';
-$db['default']['password'] = '400616';
-$db['default']['database'] = 'g2lee';
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'vagrant';
+$db['default']['password'] = 'vagrant';
+$db['default']['database'] = 'connect4';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
-$db['default']['db_debug'] = FALSE;
+$db['default']['db_debug'] = TRUE;
 $db['default']['cache_on'] = FALSE;
 $db['default']['cachedir'] = '';
 $db['default']['char_set'] = 'utf8';
